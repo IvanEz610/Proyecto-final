@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!--====== Title ======-->
-  <title>Delicias - Recetas</title>
+  <title>Delicias - Recetas - Empanadas</title>
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
@@ -26,7 +26,7 @@
   <!--====== gLightBox css ======-->
   <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 
-  <link rel="stylesheet" href="Recetas.css" />
+  <link rel="stylesheet" href="paises.css" />
 </head>
 
 <body>
@@ -54,15 +54,29 @@
                   <a class="page-scroll active" href="#hero-area">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#services">Recetas</a>
+                  <a class="page-scroll" href="#services">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#prepa">Preparación</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index.html">Volver atrás</a>
-                  </li>
-              </ul>
+                    <a class="page-scroll" href="javascript:void(0);" onclick="volverAPaginaAnterior()">Volver atrás</a>
+                  </li>  
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ir a
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                      <li><a class="dropdown-item" href="paises.html">Paises</a></li>
+                      <li><a class="dropdown-item" href="Recetas.html">Recetas</a></li>
+                    </ul>
+                  </div>              
+
+                </ul>
             </div>
 
             <div class="navbar-btn d-none d-lg-inline-block">
@@ -128,10 +142,10 @@
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
+                <img class="imageuni" src="./assets/images/comidas/empanadas arg.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size:50px;"  class="mamelunga">Recetas del mundo</h5>
-                  <p class="mamelunga"> La comida no solo es una necesidad básica, sino que también es un reflejo de la cultura, la historia y las tradiciones de cada nación. A través de este viaje culinario, buscaremos no solo describir los platos más emblemáticos de cada país, sino también ofrecer una mirada más profunda a sus orígenes y el contexto que los rodea.</p>
+                  <h5 style="font-size:50px;" class="mamelunga">Empanadas</h5>
+                  <p class="mamelunga">
                 </div>
               </div>
             </div>
@@ -143,258 +157,148 @@
 
   <!-- ===== service-area start ===== -->
   <section id="services" class="services-area services-eight">
-    <div class="container">
-      <div class="row">
+
+        <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
         <div class="row">
-
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/arroz frito chin.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Arroz frito</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/codillodecerso alem.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Codillo de cerdo</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/Croque_monsieur fr.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Croque Monsieur</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/crème brûlée fr.jpeg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Crème Brûlée</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/curau br.jpeg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Curau</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/empanadas arg.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Empanadas</h5>
-                    </div>
-                   </div>
-              </div>
-   
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/harira marr.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Harira</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/jiaozi jp.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Jiaozi</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/kushari egip.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Kushari</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/locro ar.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Locro</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Moulourejia egip.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Moulourejia</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/paella es.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Paella</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/palmeni rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Palmeni</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/patatas a la riojana es.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Patatas a la rojana</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/pato laqueado a la pekinesa chin.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pato a la pekinesa</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Pizza-margherita ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pizza Margherita</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/pretzel alem.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Pretzel</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/ramen jp.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Ramen</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Rissoto ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Rissoto</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/tapioca br.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Tapioca</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/ternera strogonoff rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Ternera Strogonoff</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/za'aluk marr.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Za'aluk Marr</h5>
-                    </div>
-                   </div>
-              </div>        
-    
+          <div class="col-12">
+            <div class="content">
+              <h6>Historia</h6>
+            </div>
           </div>
-       </div>
+        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+
+    <div class="container">
+        <h5>
+          El origen de las empanadas se remonta a las antiguas cocinas de Medio Oriente, donde se preparaban masas rellenas conocidas como samosas. Estas eran populares en los banquetes árabes y se extendieron rápidamente hacia la Península Ibérica durante la época de la conquista musulmana. Con el tiempo, los españoles y portugueses adoptaron esta técnica y la hicieron suya, creando las empanadas que hoy conocemos. Las primeras referencias a las masas o panes rellenos datan de hace 4,000 años, siendo un alimento común de pastores y viajeros que, con ingenio, colocaron guisos dentro de panes para poder transportar, conservar y consumir fácilmente alimentos en sus largas travesías.
+          <br><br>
+          La llegada de la empanada a América se atribuye a los colonizadores europeos que llevaron consigo esta receta. En Argentina, las empanadas encontraron un nuevo hogar y se adaptaron a los ingredientes y gustos locales, transformándose en un emblema de la identidad nacional. Según el historiador gastronómico Miguel Brascó, las empanadas fueron adoptadas rápidamente por las comunidades rurales debido a su practicidad y sabor. De hecho, ya en 1810 había vendedores de empanadas en territorio rioplatense. La venta callejera se dividía entre españoles, que ofrecían su producto fresco pero frío, y los italianos del sur, que vendían empanadas calientes aunque eran recalentadas.
+          <br><br>
+          En la actualidad, hay una gran variedad de empanadas en Argentina, pero entre las más tradicionales están las empanadas criollas. La empanada tucumana, por ejemplo, está rellena de carne cortada a cuchillo, huevo y cebolla de verdeo; mientras que la empanada salteña le suma papa a su contenido. También están las empanadas catamarqueñas, que incluyen pasas de uva. Además, existen opciones rellenas de jamón y queso, verduras, pollo y humita. Las empanadas pueden ser fritas o al horno, lo que añade otra dimensión a su versatilidad.
+          <br><br>
+          Según la organización Apyce, que agrupa a todas las Pizzerías y Casas de Empanadas de Argentina, la empanada de carne es la favorita entre los argentinos, con un 28% de preferencia. En segundo lugar se encuentra la empanada de jamón y queso (20%) y en tercer lugar la de pollo (17%). Estos datos reflejan la diversidad de gustos y sabores que existen en el país cuando se trata de empanadas. En casi todas las provincias argentinas, la empanada es uno de los cinco alimentos más consumidos.
+          <br><br>
+          La popularidad de las empanadas ha trascendido fronteras y se ha convertido en un emblema de la cocina argentina. Su presencia es habitual en eventos familiares y celebraciones nacionales como el Día Mundial de la Empanada, celebrado el 8 de abril. Además, han dejado su huella en la cultura popular argentina; no es raro encontrar mitos y leyendas en torno a su origen. Por ejemplo, se dice que las primeras empanadas fueron preparadas para las largas travesías de los gauchos en la Pampa.
+          <br><br>
+          En conclusión, aunque las empanadas tienen raíces antiguas que se extienden desde Medio Oriente hasta España, su evolución en Argentina ha sido notable. Desde ser un alimento práctico para trabajadores hasta convertirse en un símbolo cultural que une a familias argentinas en celebraciones y comidas cotidianas, las empanadas son una parte integral del patrimonio gastronómico del país. Su rica historia refleja no solo la evolución culinaria sino también las tradiciones sociales que han crecido a su alrededor.
+          
+        
+        </h5>
     </div>
   </section>
+  
+  <section id="prepa" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="content">
+                <h6>Preparación</h6>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!--======  End Section Title Five ======-->
+      <div class="container">
+  
+       <h3>Ingredientes (para 12 empanadas)</h3>
+       <h4>Para la masa:</h4>
+       <ul style="font-size: larger;">
+        <li>-500 g de harina de trigo</li>
+        <li>-100 g de grasa bovina (o mantequilla)</li>
+        <li>-1/2 taza de agua</li>
+        <li>-1/2 cucharada de sal</li>
+       </ul>
+       <br>
+       <h4>Para el relleno:</h4>
+       <ul style="font-size: larger;">
+        <li>-500 g de carne picada (res o pollo)</li>
+        <li>-2 cebollas (picadas)</li>
+        <li>-2 dientes de ajo (picados)</li>
+        <li>-1/2 pimiento morrón rojo (picado)</li>
+        <li>-1 tomate (picado)</li>
+        <li>-2 cucharadas de puré de tomate</li>
+        <li>-1 puñado de aceitunas (opcional, picadas)</li>
+        <li>-Pimentón, comino, sal y pimienta al gusto</li>
+
+       </ul>
+
+       
+       <br>
+       <br>
+       <br>
+       
+       <h3>Instrucciones</h3>
+       <h4>Para la masa:</h4>
+       <ol style="font-size: larger;">
+        <li>1- En una olla, calienta el agua con la grasa y la sal hasta que la grasa se derrita.</li>
+        <br>
+        <li>2- Retira del fuego y deja enfriar un poco.</li>
+        <br>
+        <li>3- Agrega la harina poco a poco, mezclando hasta formar una masa homogénea.</li>
+        <br>
+        <li>4- Amasa hasta que esté lisa y suave. Cubre con film plástico y deja reposar durante 30 minutos.</li>
+       </ol>
+
+       <br><br>
+       
+       <h4>Para el relleno:</h4>
+       <ol style="font-size: larger;">
+        <li>1- En una sartén grande, calienta un poco de aceite y añade las cebollas y el pimiento morrón. Sofríe hasta que estén tiernos.</li>
+        <br>
+        <li>2- Agrega el ajo y cocina por un par de minutos más.</li>
+        <br>
+        <li>3- Incorpora la carne picada y cocina a fuego alto, removiendo para que no se pegue.</li>
+        <br>
+        <li>4- Una vez que la carne esté sellada, agrega el tomate picado y el puré de tomate. Sazona con pimentón, comino, sal y pimienta.</li>
+        <br>
+        <li>5- Puedes hacer un repulgue en los bordes para asegurar que queden bien cerradas.</li>
+        <br>
+        <li>6- Coloca las empanadas en una bandeja para hornear y pincela con huevo batido si deseas un acabado dorado.</li>
+        <br>
+        <li>7- Hornea las empanadas durante 20-25 minutos o hasta que estén doradas.</li>
+       </ol>
+
+       <br><br>
+
+       <h4>Para el armado:</h4>
+       <ol style="font-size: larger;">
+        <li>1- Precalienta el horno a 180°C.</li>
+        <br>
+        <li>2- Toma porciones de masa y estira con un rodillo hasta obtener círculos delgados (aproximadamente 1 mm).</li>
+        <br>
+        <li>3- Coloca una cucharada del relleno en el centro de cada círculo.</li>
+        <br>
+        <li>4- Doble la masa sobre el relleno para formar un semicírculo y presiona los bordes para sellar bien.</li>
+        <br>
+        <li>5- Cocina a fuego medio durante unos 30 minutos, revolviendo ocasionalmente. Al final, añade las aceitunas si lo deseas y mezcla bien. Deja enfriar.</li>
+       </ol>
+
+
+       <br>
+       <br>
+       <br>
+
+       
+      </div>
+  </section>
+
+  <div class="container">
+    <h3>Video de preparación</h3>
+    <iframe class="iframefood" src="https://www.youtube.com/embed/7MKHeCRQsjo" title="empanadas de carne, receta de masa y relleno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+
+
+
   <!-- ===== service-area end ===== -->
 
 
@@ -578,11 +482,6 @@
   </footer>
   <!--/ End Footer Area -->
 
-	<div class="made-in-ayroui mt-4">
-		<a href="https://ayroui.com" target="_blank" rel="nofollow">
-		  <img style="width:220px" src="assets/images/ayroui.svg">
-		</a>
-	</div>
 
   <a href="#" class="scroll-top btn-hover">
     <i class="lni lni-chevron-up"></i>
@@ -594,7 +493,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
   <script src="assets/js/jsuniversal.js"></script>
-
 
   <script>
 

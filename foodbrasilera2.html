@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!--====== Title ======-->
-  <title>Delicias - Recetas</title>
+  <title>Delicias - Recetas - Crepes de tapioca</title>
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
@@ -26,7 +26,7 @@
   <!--====== gLightBox css ======-->
   <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 
-  <link rel="stylesheet" href="Recetas.css" />
+  <link rel="stylesheet" href="paises.css" />
 </head>
 
 <body>
@@ -54,15 +54,29 @@
                   <a class="page-scroll active" href="#hero-area">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#services">Recetas</a>
+                  <a class="page-scroll" href="#services">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#prepa">Preparación</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index.html">Volver atrás</a>
-                  </li>
-              </ul>
+                    <a class="page-scroll" href="javascript:void(0);" onclick="volverAPaginaAnterior()">Volver atrás</a>
+                  </li>  
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ir a
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                      <li><a class="dropdown-item" href="paises.html">Paises</a></li>
+                      <li><a class="dropdown-item" href="Recetas.html">Recetas</a></li>
+                    </ul>
+                  </div>              
+
+                </ul>
             </div>
 
             <div class="navbar-btn d-none d-lg-inline-block">
@@ -128,10 +142,10 @@
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
+                <img class="imageuni" src="./assets/images/comidas/tapioca br.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size:50px;"  class="mamelunga">Recetas del mundo</h5>
-                  <p class="mamelunga"> La comida no solo es una necesidad básica, sino que también es un reflejo de la cultura, la historia y las tradiciones de cada nación. A través de este viaje culinario, buscaremos no solo describir los platos más emblemáticos de cada país, sino también ofrecer una mirada más profunda a sus orígenes y el contexto que los rodea.</p>
+                  <h5 style="font-size:50px;" class="mamelunga">Crepes de tapioca</h5>
+                  <p class="mamelunga">
                 </div>
               </div>
             </div>
@@ -143,258 +157,105 @@
 
   <!-- ===== service-area start ===== -->
   <section id="services" class="services-area services-eight">
-    <div class="container">
-      <div class="row">
+
+        <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
         <div class="row">
-
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/arroz frito chin.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Arroz frito</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/codillodecerso alem.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Codillo de cerdo</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/Croque_monsieur fr.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Croque Monsieur</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/crème brûlée fr.jpeg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Crème Brûlée</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/curau br.jpeg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Curau</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/empanadas arg.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Empanadas</h5>
-                    </div>
-                   </div>
-              </div>
-   
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/harira marr.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Harira</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/jiaozi jp.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Jiaozi</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/kushari egip.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Kushari</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/locro ar.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Locro</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Moulourejia egip.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Moulourejia</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/paella es.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Paella</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/palmeni rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Palmeni</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/patatas a la riojana es.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Patatas a la rojana</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/pato laqueado a la pekinesa chin.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pato a la pekinesa</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Pizza-margherita ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pizza Margherita</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/pretzel alem.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Pretzel</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/ramen jp.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Ramen</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Rissoto ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Rissoto</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/tapioca br.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Tapioca</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/ternera strogonoff rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Ternera Strogonoff</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/za'aluk marr.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Za'aluk Marr</h5>
-                    </div>
-                   </div>
-              </div>        
-    
+          <div class="col-12">
+            <div class="content">
+              <h6>Historia</h6>
+            </div>
           </div>
-       </div>
+        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+
+    <div class="container">
+        <h5>
+          Los crepes son una preparación culinaria de origen francés que ha conquistado paladares alrededor del mundo. Tienen sus raíces en la región de Bretaña, en Francia, donde se elaboraban originalmente con trigo sarraceno, conocido como galettes. Estas primeras versiones eran más gruesas y se utilizaban principalmente como un alimento básico para los campesinos. A medida que la popularidad de este plato se extendió, se comenzaron a hacer versiones más ligeras utilizando harina de trigo común, lo que permitió que los crepes se convirtieran en un plato más accesible y versátil.
+          <br><br>
+          La evolución de los crepes fue influenciada por la disponibilidad de ingredientes y las tradiciones culinarias de diferentes regiones. En el siglo XIX, los crepes comenzaron a ganar popularidad en París, donde se convirtieron en un alimento callejero muy apreciado. Los vendedores ambulantes ofrecían crepes dulces y salados, lo que contribuyó a su difusión y aceptación en la cultura gastronómica francesa.
+          <br><br>
+          A lo largo del tiempo, los crepes han sido adoptados y adaptados por diversas culturas alrededor del mundo. En Brasil, por ejemplo, se preparan crepes de tapioca utilizando almidón de yuca en lugar de harina, creando una variante popular que se puede rellenar con ingredientes tanto dulces como salados. En otros países, como Japón, se han desarrollado versiones únicas que incorporan sabores locales y técnicas culinarias.
+          <br><br>
+          Hoy en día, los crepes son un alimento versátil que se puede encontrar en restaurantes y hogares de todo el mundo. Su facilidad de preparación y la posibilidad de personalizarlos con una amplia gama de rellenos los convierten en una opción popular para desayunos, postres o cenas. Cada bocado ofrece una experiencia gastronómica que celebra la rica tradición culinaria de su país de origen y su adaptación en diferentes culturas.        
+        </h5>
     </div>
   </section>
+  
+  <section id="prepa" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="content">
+                <h6>Preparación</h6>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!--======  End Section Title Five ======-->
+      <div class="container">
+  
+       <h3>Ingredientes </h3>
+       <ul style="font-size: larger;">
+        <li>-400 g de almidón de yuca (tapioca)</li>
+        <li>-200 ml de agua</li>
+        <li>-1 cucharadita de sal</li>
+        <li>-Margarina o aceite (para engrasar la sartén)</li>
+       </ul>
+       
+       <br>
+       <br>
+       <br>
+       
+       <h3>Instrucciones</h3>
+       
+       <ol style="font-size: larger;">
+        <li>1- Preparar la mezcla:</li>
+        <li>- En un bol, mezcla el almidón de yuca con el agua y la sal. Revuelve bien hasta obtener una mezcla homogénea. La consistencia debe ser similar a una masa ligera.</li>
+        <br>
+        <li>2- Cocinar los crepes:</li>
+        <li>- Calienta una sartén antiadherente a fuego medio y engrásala ligeramente con margarina o aceite.</li>
+        <li>- Vierte una porción de la mezcla en la sartén caliente, extendiéndola en una capa delgada. Cocina durante aproximadamente 1-2 minutos o hasta que los bordes comiencen a despegarse y la superficie esté firme.</li>
+        <li>- Voltea el crepe y cocina por el otro lado durante 1-2 minutos más.</li>
+        <br>
+        <li>3- Repetir: </li>
+            <li>- Repite el proceso con el resto de la mezcla, apilando los crepes cocidos en un plato.</li>
+      </ol>
+
+      <br>
+      <br>
+      <br>
+
+      <h3>Opciones de Relleno </h3>
+      <li>- Dulces:
+        Rellenar con frutas frescas (como plátano o fresas), chocolate derretido o miel.</li>
+        
+       <li>- Salados:
+        Rellenar con queso, jamón, espinacas o guacamole.</li>
+
+
+
+       
+
+      </div>
+  </section>
+
+  <div class="container">
+    <h3>Video de preparación</h3>
+    <iframe class="iframefood" src="https://www.youtube.com/embed/JbHnkZD641k" title="Crepas Dulces de Tapioca Estilo Brasileño" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+
+
+
   <!-- ===== service-area end ===== -->
 
 
@@ -578,11 +439,6 @@
   </footer>
   <!--/ End Footer Area -->
 
-	<div class="made-in-ayroui mt-4">
-		<a href="https://ayroui.com" target="_blank" rel="nofollow">
-		  <img style="width:220px" src="assets/images/ayroui.svg">
-		</a>
-	</div>
 
   <a href="#" class="scroll-top btn-hover">
     <i class="lni lni-chevron-up"></i>
@@ -594,7 +450,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
   <script src="assets/js/jsuniversal.js"></script>
-
 
   <script>
 

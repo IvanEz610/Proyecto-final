@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!--====== Title ======-->
-  <title>Delicias - Recetas</title>
+  <title>Delicias - Recetas - Curau</title>
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
@@ -26,7 +26,7 @@
   <!--====== gLightBox css ======-->
   <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 
-  <link rel="stylesheet" href="Recetas.css" />
+  <link rel="stylesheet" href="paises.css" />
 </head>
 
 <body>
@@ -54,15 +54,29 @@
                   <a class="page-scroll active" href="#hero-area">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#services">Recetas</a>
+                  <a class="page-scroll" href="#services">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#prepa">Preparación</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index.html">Volver atrás</a>
-                  </li>
-              </ul>
+                    <a class="page-scroll" href="javascript:void(0);" onclick="volverAPaginaAnterior()">Volver atrás</a>
+                  </li>  
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ir a
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                      <li><a class="dropdown-item" href="paises.html">Paises</a></li>
+                      <li><a class="dropdown-item" href="Recetas.html">Recetas</a></li>
+                    </ul>
+                  </div>              
+
+                </ul>
             </div>
 
             <div class="navbar-btn d-none d-lg-inline-block">
@@ -128,10 +142,10 @@
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
+                <img class="imageuni" src="./assets/images/comidas/curau br.jpeg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size:50px;"  class="mamelunga">Recetas del mundo</h5>
-                  <p class="mamelunga"> La comida no solo es una necesidad básica, sino que también es un reflejo de la cultura, la historia y las tradiciones de cada nación. A través de este viaje culinario, buscaremos no solo describir los platos más emblemáticos de cada país, sino también ofrecer una mirada más profunda a sus orígenes y el contexto que los rodea.</p>
+                  <h5 style="font-size:50px;" class="mamelunga">Curau</h5>
+                  <p class="mamelunga">
                 </div>
               </div>
             </div>
@@ -143,258 +157,108 @@
 
   <!-- ===== service-area start ===== -->
   <section id="services" class="services-area services-eight">
-    <div class="container">
-      <div class="row">
+
+        <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
         <div class="row">
-
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/arroz frito chin.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Arroz frito</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/codillodecerso alem.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Codillo de cerdo</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/Croque_monsieur fr.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Croque Monsieur</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/crème brûlée fr.jpeg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Crème Brûlée</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/curau br.jpeg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Curau</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/empanadas arg.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Empanadas</h5>
-                    </div>
-                   </div>
-              </div>
-   
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/harira marr.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Harira</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/jiaozi jp.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Jiaozi</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/kushari egip.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Kushari</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/locro ar.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Locro</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Moulourejia egip.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Moulourejia</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/paella es.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Paella</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/palmeni rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Palmeni</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/patatas a la riojana es.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Patatas a la rojana</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/pato laqueado a la pekinesa chin.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pato a la pekinesa</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Pizza-margherita ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pizza Margherita</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/pretzel alem.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Pretzel</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/ramen jp.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Ramen</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Rissoto ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Rissoto</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/tapioca br.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Tapioca</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/ternera strogonoff rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Ternera Strogonoff</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/za'aluk marr.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Za'aluk Marr</h5>
-                    </div>
-                   </div>
-              </div>        
-    
+          <div class="col-12">
+            <div class="content">
+              <h6>Historia</h6>
+            </div>
           </div>
-       </div>
+        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+
+    <div class="container">
+        <h5>
+          El curau es un postre tradicional brasileño, especialmente popular en las regiones del sureste y sur del país. Este dulce se elabora a base de maíz, lo que lo convierte en una opción deliciosa y nutritiva. Su preparación es sencilla y se basa en ingredientes básicos que son fáciles de encontrar.
+          <br><br>
+          El curau se elabora principalmente con maíz verde, que se muele hasta obtener una masa suave. Para preparar el postre, se utilizan tres mazorcas de maíz verde medio duro, que se desgranarán y mezclarán con leche, azúcar y una pizca de sal. La mezcla se cocina a fuego lento durante aproximadamente 20 minutos, removiendo constantemente hasta que espese. Al final, se puede espolvorear canela en polvo sobre la superficie para darle un toque aromático.
+          <br><br>
+          Este postre tiene un sabor dulce y cremoso, y su textura puede variar desde suave hasta más espesa, dependiendo del tiempo de cocción. Es común servir el curau en pequeños recipientes o cuencos, a menudo acompañado de pan de pita dorado con canela y azúcar.
+          <br><br>
+          El curau no solo es un postre sabroso, sino que también está vinculado a festividades y celebraciones en Brasil. A menudo se prepara durante las fiestas juninas, donde el maíz es un ingrediente central en muchas recetas. Además, su popularidad ha crecido en las últimas décadas, convirtiéndose en un símbolo de la cocina brasileña.
+          <br><br>
+          En resumen, el curau es un postre que refleja la riqueza de la gastronomía brasileña. Su combinación de maíz dulce y leche crea una experiencia culinaria única que resalta la tradición y el sabor de los ingredientes locales. Cada bocado de curau cuenta una historia de cultura y celebración en Brasil.
+
+        </h5>
     </div>
   </section>
+  
+  <section id="prepa" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="content">
+                <h6>Preparación</h6>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!--======  End Section Title Five ======-->
+      <div class="container">
+  
+       <h3>Ingredientes (para 7 porciones)</h3>
+       <ul style="font-size: larger;">
+        <li>-3 mazorcas de maíz verde (medio duro)</li>
+        <li>-750 ml de leche</li>
+        <li>-250 g de azúcar</li>
+        <li>-1 pizca de sal</li>
+        <li>-Canela en polvo (al gusto)</li>
+        <li>-Azúcar en polvo (para espolvorear)</li>
+        <li>-Pan de pita (opcional, para acompañar)</li>
+       </ul>
+       
+       <br>
+       <br>
+       <br>
+       
+       <h3>Instrucciones</h3>
+       
+       <ol style="font-size: larger;">
+        <li>1- Preparar el maíz:</li>
+          <li>- Con un cuchillo, corta los granos de las mazorcas de maíz y colócalos en un recipiente.</li>
+          <li>- Tritura los granos en una batidora o procesador hasta obtener una masa suave.</li>
+        <br>
+        <li>2- Mezclar con leche:</li>
+          <li>- Agrega la leche a la masa de maíz y mezcla bien. Luego, tamiza la mezcla dos veces para eliminar grumos.</li>
+        <br>
+        <li>3- Cocinar la mezcla:</li>
+          <li>- Vierte la mezcla en una olla y lleva al fuego medio. Añade el azúcar y la pizca de sal.</li>
+          <li>- Cocina, removiendo constantemente, durante aproximadamente 20 minutos desde que comience a hervir. La mezcla debe espesar.</li>
+        <br>
+        <li>4- Dorar el pan de pita (opcional):</li>
+          <li>- En una sartén, calienta un poco de aceite y agrega canela y azúcar al gusto. Dora el pan de pita hasta que esté crujiente.</li>
+        
+          <br>
+        <li>5- Servir:</li>
+          <li>- Vierte el curau en cuencos pequeños y espolvorea con canela en polvo.</li>
+          <li>- Acompaña con el pan dorado si lo deseas.</li>
+       </ol>
+
+       <br>
+       <br>
+       <br>
+
+      </div>
+  </section>
+
+  <div class="container">
+    <h3>Video de preparación</h3>
+    <iframe class="iframefood" src="https://www.youtube.com/embed/8p2tgCT88BA" title="(español) CURAU DE MAIZ BRASILEÑO CON LECHE CONDENSADA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+
+
+
   <!-- ===== service-area end ===== -->
 
 
@@ -578,11 +442,6 @@
   </footer>
   <!--/ End Footer Area -->
 
-	<div class="made-in-ayroui mt-4">
-		<a href="https://ayroui.com" target="_blank" rel="nofollow">
-		  <img style="width:220px" src="assets/images/ayroui.svg">
-		</a>
-	</div>
 
   <a href="#" class="scroll-top btn-hover">
     <i class="lni lni-chevron-up"></i>
@@ -594,7 +453,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
   <script src="assets/js/jsuniversal.js"></script>
-
 
   <script>
 

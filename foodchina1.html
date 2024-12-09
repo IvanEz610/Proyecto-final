@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!--====== Title ======-->
-  <title>Delicias - Recetas</title>
+  <title>Delicias - Recetas - Pato laqueado a la pekinesa</title>
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
@@ -26,7 +26,7 @@
   <!--====== gLightBox css ======-->
   <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 
-  <link rel="stylesheet" href="Recetas.css" />
+  <link rel="stylesheet" href="paises.css" />
 </head>
 
 <body>
@@ -54,15 +54,29 @@
                   <a class="page-scroll active" href="#hero-area">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#services">Recetas</a>
+                  <a class="page-scroll" href="#services">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#prepa">Preparación</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index.html">Volver atrás</a>
-                  </li>
-              </ul>
+                    <a class="page-scroll" href="javascript:void(0);" onclick="volverAPaginaAnterior()">Volver atrás</a>
+                  </li>  
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ir a
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                      <li><a class="dropdown-item" href="paises.html">Paises</a></li>
+                      <li><a class="dropdown-item" href="Recetas.html">Recetas</a></li>
+                    </ul>
+                  </div>              
+
+                </ul>
             </div>
 
             <div class="navbar-btn d-none d-lg-inline-block">
@@ -128,10 +142,10 @@
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
+                <img class="imageuni" src="./assets/images/comidas/pato laqueado a la pekinesa chin.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size:50px;"  class="mamelunga">Recetas del mundo</h5>
-                  <p class="mamelunga"> La comida no solo es una necesidad básica, sino que también es un reflejo de la cultura, la historia y las tradiciones de cada nación. A través de este viaje culinario, buscaremos no solo describir los platos más emblemáticos de cada país, sino también ofrecer una mirada más profunda a sus orígenes y el contexto que los rodea.</p>
+                  <h5 style="font-size:50px;" class="mamelunga">Pato laqueado a la pekinesa</h5>
+                  <p class="mamelunga">
                 </div>
               </div>
             </div>
@@ -143,258 +157,150 @@
 
   <!-- ===== service-area start ===== -->
   <section id="services" class="services-area services-eight">
-    <div class="container">
-      <div class="row">
+
+        <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
         <div class="row">
-
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/arroz frito chin.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Arroz frito</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/codillodecerso alem.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Codillo de cerdo</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/Croque_monsieur fr.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Croque Monsieur</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/crème brûlée fr.jpeg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Crème Brûlée</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/curau br.jpeg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Curau</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/empanadas arg.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Empanadas</h5>
-                    </div>
-                   </div>
-              </div>
-   
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/harira marr.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Harira</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/jiaozi jp.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Jiaozi</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/kushari egip.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Kushari</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/locro ar.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Locro</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Moulourejia egip.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Moulourejia</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/paella es.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Paella</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/palmeni rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Palmeni</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/patatas a la riojana es.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Patatas a la rojana</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/pato laqueado a la pekinesa chin.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pato a la pekinesa</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Pizza-margherita ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pizza Margherita</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/pretzel alem.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Pretzel</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/ramen jp.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Ramen</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Rissoto ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Rissoto</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/tapioca br.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Tapioca</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/ternera strogonoff rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Ternera Strogonoff</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/za'aluk marr.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Za'aluk Marr</h5>
-                    </div>
-                   </div>
-              </div>        
-    
+          <div class="col-12">
+            <div class="content">
+              <h6>Historia</h6>
+            </div>
           </div>
-       </div>
+        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+
+    <div class="container">
+        <h5>
+          El pato laqueado a la pekinesa, también conocido como pato pekinés, es uno de los platos más emblemáticos de la cocina china, originario de Pekín. Este manjar es famoso por su piel crujiente y su carne jugosa, y ha ganado popularidad en todo el mundo, especialmente en restaurantes chinos. La preparación del pato laqueado requiere un proceso meticuloso que incluye marinar, escaldar y asar el pato para lograr su característico acabado dorado y brillante.
+          <br><br>
+          El primer paso en la preparación del pato laqueado es limpiar bien el pato, asegurándose de que no queden vísceras. Luego, se prepara una mezcla de especias que generalmente incluye jengibre, ajo, sal y cinco especias chinas. Esta mezcla se introduce en el interior del pato, que también se pinta con una mezcla de miel y salsa de soja para darle sabor y color.
+          <br><br>
+          Una técnica clave en la preparación es escaldar el pato en agua hirviendo durante unos segundos. Esto ayuda a despegar la piel de la carne, lo que es crucial para obtener esa textura crujiente al final. Después de escaldar, el pato se cuelga en un lugar ventilado para que se seque completamente antes de ser asado. Este secado es fundamental, ya que si la piel está húmeda durante el asado, no logrará el brillo deseado.
+          <br><br>
+          El asado del pato se realiza en un horno precalentado a temperaturas controladas. Se comienza a una temperatura alta para dorar la piel y luego se reduce para cocinar la carne lentamente. Durante el proceso de cocción, es común rociar el pato con su propio jugo o con una mezcla adicional de miel y salsa para intensificar los sabores.
+          <br><br>
+          Una vez cocido, el pato se corta en porciones y se sirve acompañado de crepes finos (tortillas chinas), cebollín fresco y rodajas de pepino. Los comensales suelen envolver las rebanadas de carne y piel en los crepes junto con un poco de salsa hoisin, creando un bocado delicioso que combina texturas y sabores.
+          <br><br>
+          El pato laqueado a la pekinesa no solo es un plato exquisito, sino que también representa una parte importante de la cultura culinaria china, simbolizando celebraciones y ocasiones especiales. Su complejidad en la preparación lo convierte en un verdadero desafío culinario que vale la pena experimentar tanto en casa como en restaurantes especializados.
+    
+        </h5>
     </div>
   </section>
+  
+  <section id="prepa" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="content">
+                <h6>Preparación</h6>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!--======  End Section Title Five ======-->
+      <div class="container">
+  
+       <h3>Ingredientes</h3>
+       <h4>Para el pato</h4>
+       <ul style="font-size: larger;">
+        <li> -1 pato entero (aproximadamente 2.2 kg)</li>
+        <li> -1 cucharada de sal
+        <li> -1 cucharada de azúcar
+        <li> -1 cucharada de salsa de soja
+        <li> -1 cucharada de cinco especias chinas
+        <li> -2 cucharadas de miel
+        <li> -2 cucharadas de vinagre de arroz o manzana
+        <li> -Agua (suficiente para escaldar y cocinar)</li>
+       </ul>
+       <br>
+       <h4>Para el glaseado</h4>
+       <ul style="font-size: larger;">
+      <li> 350 ml de agua</li>
+      <li> 200 ml de vinagre de arroz o manzana</li>
+      <li> 3 cucharadas de azúcar</li>
+      <li> 2 cucharadas de miel</li>
+       </ul>
+       <br>
+       <h4>Acompañamiento</h4>
+       <ul style="font-size: larger;">
+      <li> Crepes chinos</li>
+      <li> Cebollino o cebolleta (en tiras)</li>
+      <li> Pepino (en tiras)</li>
+      <li> Salsa hoisin (para servir)</li>
+       </ul>
+       
+       <br>
+       <br>
+       <br>
+       
+       <h3>Instrucciones</h3>
+       
+       <h4>Preparación del pato:</h4>
+       <ol style="font-size: larger;">
+           <li>1- Limpieza:<li>
+                   <li>- Limpia bien el pato por dentro y por fuera, retirando cualquier víscera y plumas sobrantes. Sécalo con un paño.</li>
+                   <br>
+           <li>2- Marinado:</li>
+                   <li>- Mezcla en un bol la sal, el azúcar, la salsa de soja, las cinco especias chinas y un poco de agua. Unta esta mezcla por dentro y por fuera del pato, asegurándote de cubrirlo bien. Deja marinar durante al menos 20 minutos.</li>
+          <br>
+                   <li>3- Escaldar el pato:</li>
+                   <li>- Lleva a ebullición una olla grande con agua. Sumerge el pato en el agua hirviendo durante unos 5 segundos para escaldarlo. Luego, retíralo y enfríalo rápidamente en agua fría para detener la cocción.</li>
+          <br>
+                   <li>4- Despegar la piel:</li>
+                   <li>- Con cuidado, utiliza una pajita para soplar entre la piel y la carne del pato, separando la piel sin romperla. Este paso es crucial para lograr una piel crujiente.</li>
+          <br>
+                   <li>5- Colgar el pato:</li>
+                   <li>- Ata el cuello del pato con un gancho y cuélgalo en un lugar fresco y ventilado durante al menos 6 horas (puedes dejarlo colgado toda la noche) para que se seque.</li>
+       </ol>
+       
+       <br><br>
+       <h4>Cocción del pato:</h4>
+       <ol style="font-size: larger;">
+               <li>1- Preparar el glaseado:</li>
+                   <li>- En una olla, mezcla el agua, vinagre, azúcar y miel. Lleva a ebullición y luego retira del fuego.</li>
+       <br>
+               <li>2- Glasear el pato:</li>
+                   <li>- Pinta el pato con el glaseado preparado, asegurándote de cubrir bien la piel.</li>
+       <br>
+               <li>3- Hornear:</li>
+                   <li>- Precalienta el horno a 200°C. Coloca el pato en una rejilla sobre una bandeja con agua en la parte inferior para recoger los jugos.</li>
+                   <li>- Hornea durante 20 minutos hasta que esté dorado. Luego reduce la temperatura a 150°C y cocina durante 60 minutos más.</li>
+                   <li>- Finalmente, aumenta la temperatura a 190°C durante unos 10-15 minutos hasta que la piel esté crujiente.</li>
+       </ol>
+       <br><br>
+       <h4>Servir</h4>
+       <ol style="font-size: larger;">
+           <li>1- Cortar y presentar:</li>
+           <ul>
+               <li>- Retira el pato del horno y deja reposar unos minutos antes de cortarlo.</li>
+               <li>- Sirve la piel crujiente en un plato separado junto con las rebanadas de carne.</li>
+               <li>- Acompaña con crepes chinos, tiras de cebollino y pepino, y salsa hoisin.</li>
+           </ul>
+       </ol>
+       
+       <br>
+       <br>
+       <br>
+
+      </div>
+  </section>
+
+  <div class="container">
+    <h3>Video de preparación</h3>
+    <iframe class="iframefood" src="https://www.youtube.com/embed/-7hIjQBaXmU" title="Pato laqueado auténtico, en casa y desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+
+
+
   <!-- ===== service-area end ===== -->
 
 
@@ -578,11 +484,6 @@
   </footer>
   <!--/ End Footer Area -->
 
-	<div class="made-in-ayroui mt-4">
-		<a href="https://ayroui.com" target="_blank" rel="nofollow">
-		  <img style="width:220px" src="assets/images/ayroui.svg">
-		</a>
-	</div>
 
   <a href="#" class="scroll-top btn-hover">
     <i class="lni lni-chevron-up"></i>
@@ -594,7 +495,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
   <script src="assets/js/jsuniversal.js"></script>
-
 
   <script>
 

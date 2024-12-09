@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!--====== Title ======-->
-  <title>Delicias - Recetas</title>
+  <title>Delicias - Recetas - Arroz frito</title>
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
@@ -26,7 +26,7 @@
   <!--====== gLightBox css ======-->
   <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 
-  <link rel="stylesheet" href="Recetas.css" />
+  <link rel="stylesheet" href="paises.css" />
 </head>
 
 <body>
@@ -54,15 +54,29 @@
                   <a class="page-scroll active" href="#hero-area">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#services">Recetas</a>
+                  <a class="page-scroll" href="#services">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="page-scroll" href="#prepa">Preparación</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index.html">Volver atrás</a>
-                  </li>
-              </ul>
+                    <a class="page-scroll" href="javascript:void(0);" onclick="volverAPaginaAnterior()">Volver atrás</a>
+                  </li>  
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ir a
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                      <li><a class="dropdown-item" href="paises.html">Paises</a></li>
+                      <li><a class="dropdown-item" href="Recetas.html">Recetas</a></li>
+                    </ul>
+                  </div>              
+
+                </ul>
             </div>
 
             <div class="navbar-btn d-none d-lg-inline-block">
@@ -128,10 +142,10 @@
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
+                <img class="imageuni" src="./assets/images/comidas/arroz frito chin.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size:50px;"  class="mamelunga">Recetas del mundo</h5>
-                  <p class="mamelunga"> La comida no solo es una necesidad básica, sino que también es un reflejo de la cultura, la historia y las tradiciones de cada nación. A través de este viaje culinario, buscaremos no solo describir los platos más emblemáticos de cada país, sino también ofrecer una mirada más profunda a sus orígenes y el contexto que los rodea.</p>
+                  <h5 style="font-size:50px;" class="mamelunga">Arroz frito</h5>
+                  <p class="mamelunga">
                 </div>
               </div>
             </div>
@@ -143,258 +157,121 @@
 
   <!-- ===== service-area start ===== -->
   <section id="services" class="services-area services-eight">
-    <div class="container">
-      <div class="row">
+
+        <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
         <div class="row">
-
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/arroz frito chin.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Arroz frito</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/codillodecerso alem.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Codillo de cerdo</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/Croque_monsieur fr.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Croque Monsieur</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/crème brûlée fr.jpeg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Crème Brûlée</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/curau br.jpeg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Curau</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/empanadas arg.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Empanadas</h5>
-                    </div>
-                   </div>
-              </div>
-   
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/harira marr.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Harira</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/jiaozi jp.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Jiaozi</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/kushari egip.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Kushari</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/locro ar.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Locro</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Moulourejia egip.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Moulourejia</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/paella es.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Paella</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/palmeni rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Palmeni</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/patatas a la riojana es.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Patatas a la rojana</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/pato laqueado a la pekinesa chin.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pato a la pekinesa</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Pizza-margherita ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Pizza Margherita</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/pretzel alem.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Pretzel</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/ramen jp.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Ramen</h5>
-                    </div>
-                   </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/Rissoto ita.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Rissoto</h5>
-                    </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                 <a href="">
-                    <img src="./assets/images/comidas/tapioca br.jpg" class="card-img-top" alt="...">
-                   </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Tapioca</h5>
-                    </div>
-                   </div>
-              </div>
-
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card">
-                   <a href="">
-                    <img src="./assets/images/comidas/ternera strogonoff rus.jpg" class="card-img-top"  alt="...">
-                   </a>
-                  <div class="card-body">
-                      <h5 class="card-title">Ternera Strogonoff</h5>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-xl-3 col-md-6 col-sm-12">
-                   <div class="card">
-                     <a href="">
-                    <img src="./assets/images/comidas/za'aluk marr.jpg" class="card-img-top" alt="...">
-                     </a>
-                    <div class="card-body">
-                      <h5 class="card-title">Za'aluk Marr</h5>
-                    </div>
-                   </div>
-              </div>        
-    
+          <div class="col-12">
+            <div class="content">
+              <h6>Historia</h6>
+            </div>
           </div>
-       </div>
+        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+
+    <div class="container">
+        <h5>
+          El arroz frito es un plato popular en muchas culturas, especialmente en la cocina asiática. Este platillo se caracteriza por su versatilidad y la facilidad con la que se puede preparar, utilizando arroz cocido como base y añadiendo una variedad de ingredientes según el gusto personal y la disponibilidad.
+          <br><br>
+          Los orígenes del arroz frito se pueden rastrear hasta la antigua China, donde se utilizaba como una forma de aprovechar el arroz sobrante. En su versión más tradicional, el arroz se fríe en un wok con aceite caliente y se mezcla con vegetales, carne, mariscos y huevo. Este método de cocción no solo ayuda a dar sabor al arroz, sino que también le proporciona una textura crujiente.
+          <br><br>
+          La receta básica del arroz frito generalmente incluye ingredientes como cebolla, zanahoria, guisantes y ajo. Se puede personalizar con diferentes tipos de proteínas, como pollo, cerdo o camarones, y sazonar con salsa de soja o especias para realzar el sabor. En algunas variaciones, como el arroz frito chino, se incorporan ingredientes adicionales como brotes de soja y jengibre.
+          <br><br>
+          En la actualidad, el arroz frito ha sido adaptado en diversas culturas. Por ejemplo, en España existe el "arroz tres delicias", que incluye jamón cocido, huevo y verduras. En Perú, se prepara el "arroz chaufa", que es una versión influenciada por la cocina china y que también incluye ingredientes locales.
+          <br><br>
+          La popularidad del arroz frito radica en su simplicidad y en la posibilidad de utilizar sobras de otros platos, lo que lo convierte en una opción económica y práctica para las comidas diarias. Además, su capacidad para ser adaptado a diferentes paladares lo hace atractivo para una amplia variedad de comensales.
+          <br><br>
+          En resumen, el arroz frito es un plato versátil con raíces profundas en la cocina asiática que ha evolucionado a lo largo del tiempo. Su facilidad de preparación y la posibilidad de personalizarlo con diferentes ingredientes lo convierten en una opción favorita en muchas mesas alrededor del mundo.
+          
+        </h5>
     </div>
   </section>
+  
+  <section id="prepa" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="content">
+                <h6>Preparación</h6>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!--======  End Section Title Five ======-->
+      <div class="container">
+  
+       <h3>Ingredientes (para 4 porciones)</h3>
+       <ul style="font-size: larger;">
+        <li>- 2 tazas de arroz blanco cocido (preferiblemente del día anterior)</li>
+        <li>- 2 cucharadas de aceite vegetal (puede ser de canola o ajonjolí)</li>
+        <li>- 1 cebolla mediana (picada)</li>
+        <li>- 2 zanahorias (cortadas en cubitos)</li>
+        <li>- 1/2 taza de guisantes frescos o congelados</li>
+        <li>- 2 dientes de ajo (picados)</li>
+        <li>- 2 huevos (ligeramente batidos)</li>
+        <li>- 3 cucharadas de salsa de soja</li>
+        <li>- Sal y pimienta al gusto</li>
+        <li>- Cebollín o cebolleta (picado, para decorar)</li>
+       </ul>
+       
+       <br>
+       <br>
+       <br>
+       
+       <h3>Instrucciones</h3>
+       
+       <ol style="font-size: larger;">
+     <li>1- Preparar los ingredientes:</li>
+     <li>- Asegúrate de tener todos los ingredientes picados y listos antes de comenzar a cocinar.</li>
+     <br>
+     <li>2- Calentar el aceite:</li>
+     <li>- En un wok o sartén grande, calienta 1 cucharada de aceite a fuego medio-alto.</li>
+     <br>
+     <li>3- Saltear las verduras:</li>
+     <li>- Agrega la cebolla y las zanahorias, y cocina hasta que estén tiernas, aproximadamente 3-4 minutos.</li>
+     <li>- Añade el ajo y los guisantes, y cocina por 1-2 minutos más.</li>
+     <br>
+     <li>4- Cocinar los huevos:</li>
+     <li>- Haz un espacio en el centro de la sartén y agrega la cucharada restante de aceite. Vierte los huevos batidos en el centro y revuélvelos hasta que estén cocidos.</li>
+     <br>
+     <li>5- Incorporar el arroz:</li>
+     <li>- Agrega el arroz cocido a la sartén, rompiendo cualquier grumo. Mezcla bien con las verduras y los huevos.</li>
+     <li>- Vierte la salsa de soja sobre el arroz y mezcla todo nuevamente. Cocina durante 3-5 minutos, revolviendo ocasionalmente, hasta que el arroz esté caliente y ligeramente dorado.</li>
+     <br>
+     <li>6- Sazonar y servir:</li>
+     <li>- Prueba y ajusta la sazón con sal y pimienta al gusto.</li>
+     <li>- Sirve caliente, decorando con cebollín picado por encima.</li>
+      </ol>
+
+       <br>
+       <br>
+       <br>
+
+       <h3>Variaciones</h3>
+    
+       <ul style="font-size: larger;">
+        <li>- Puedes añadir proteínas como pollo, cerdo o camarones para hacer el plato más sustancioso.</li>
+        <li>- Experimenta con diferentes vegetales como pimientos morrones, brotes de soja o maíz.</li>
+       </ul>
+      </div>
+  </section>
+
+  <div class="container">
+    <h3>Video de preparación</h3>
+    <iframe class="iframefood" src="https://www.youtube.com/embed/CUJDiArvNIY" title="Cómo hacer ARROZ FRITO Paso a Paso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+
+
+
   <!-- ===== service-area end ===== -->
 
 
@@ -578,11 +455,6 @@
   </footer>
   <!--/ End Footer Area -->
 
-	<div class="made-in-ayroui mt-4">
-		<a href="https://ayroui.com" target="_blank" rel="nofollow">
-		  <img style="width:220px" src="assets/images/ayroui.svg">
-		</a>
-	</div>
 
   <a href="#" class="scroll-top btn-hover">
     <i class="lni lni-chevron-up"></i>
@@ -594,7 +466,6 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
   <script src="assets/js/jsuniversal.js"></script>
-
 
   <script>
 

@@ -33,7 +33,7 @@
 
   <!--====== NAVBAR NINE PART START ======-->
 
-  <section class="navbar-area navbar-nine">
+  <section id="pinicio" class="navbar-area navbar-nine">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -62,6 +62,10 @@
                 <li class="nav-item">
                     <a href="./index.html">Volver atrás</a>
                   </li>
+                  <li class="nav-item">
+                    <a style="cursor: pointer;" onclick="darkmode()" >Modo oscuro</a>
+                  </li>              
+  
               </ul>
             </div>
 
@@ -81,7 +85,7 @@
 
   <!--====== SIDEBAR PART START ======-->
 
-  <div class="sidebar-left">
+  <div id="pbarra" class="sidebar-left">
     <div class="sidebar-close">
       <a class="close" href="#close"><i class="lni lni-close"></i></a>
     </div>
@@ -123,12 +127,12 @@
   <!--====== SIDEBAR PART ENDS ======-->
 
   <!-- Start header Area -->
-  <section id="hero-area" class="header-area header-eight">
+  <section id="pinicio1" id="hero-area" class="header-area header-eight">
     <div class="container">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
+                <img  src="./assets/images/header/Carrusel2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 style="font-size:50px;"  class="mamelunga">Recetas del mundo</h5>
                   <p class="mamelunga"> La comida no solo es una necesidad básica, sino que también es un reflejo de la cultura, la historia y las tradiciones de cada nación. A través de este viaje culinario, buscaremos no solo describir los platos más emblemáticos de cada país, sino también ofrecer una mirada más profunda a sus orígenes y el contexto que los rodea.</p>
@@ -363,7 +367,7 @@
                     <img src="./assets/images/comidas/tapioca br.jpg" class="card-img-top" alt="...">
                    </a>
                     <div class="card-body">
-                      <h5 class="card-title">Tapioca</h5>
+                      <h5 class="card-title">Crepes de tapioca</h5>
                     </div>
                    </div>
               </div>
@@ -508,7 +512,7 @@
   <!-- ========================= map-section end ========================= -->
 
   <!-- Start Footer Area -->
-  <footer class="footer-area footer-eleven">
+  <footer id="pcuerpo"  class="footer-area footer-eleven">
     <!-- Start Footer Top -->
     <div class="footer-top">
       <div class="container">
@@ -563,7 +567,7 @@
                 <h5>Creador</h5>
                 <p>Si quieres conocer más al creador</p>
                 <form action="#" method="get" target="_blank" class="newsletter-form">
-                  <button type="submit" class="btn primary-btn rounded-full">
+                  <button type="submit" class="btn primary-btn rounded-full" onclick="informacion()">
                     CONOCEME
                   </button>                </form>
               </div>
@@ -594,6 +598,7 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/tiny-slider.js"></script>
   <script src="assets/js/jsuniversal.js"></script>
+  <script src="assets/js/recetas.js"></script>
 
 
   <script>
